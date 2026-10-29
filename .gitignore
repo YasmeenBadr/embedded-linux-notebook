@@ -1,0 +1,22 @@
+# Build outputs and large artifacts
+*.img
+*.wic
+*.wic.*
+*.iso
+*.o
+*.ko
+*.elf
+*.bin
+build/
+tmp/
+downloads/
+sstate-cache/
+output/
+
+# Secrets and editor files
+*.pem
+*.key
+.env
+.vscode/
+*.swp
+.DS_Store
